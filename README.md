@@ -9,13 +9,6 @@ A robust motion detection system using ESP32-CAM that captures the motion when b
 - Configurable sensitivity and detection parameters
 - Memory-efficient implementation using RGB565 color space
 - Support for ESP32-CAM module
- 
-## Hardware Requirements
-
-- ESP32-CAM module (AI-Thinker ESP32-CAM recommended)
-- USB-to-TTL converter for programming (if your board doesn't have USB)
-- Power supply (5V)
-- (Optional) SD card for storing more images
 
 ## Configuration
 
