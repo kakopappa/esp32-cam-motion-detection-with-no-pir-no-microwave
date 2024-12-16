@@ -1,6 +1,6 @@
 # ESP32 Camera Motion Detection With No PIR or Microwave Sensor.
 
-A robust motion detection system using ESP32-CAM to capture. The code divides camera frames into blocks and analyzes pixel changes to detect motion. 
+The code divides camera frames into blocks and analyzes pixel changes to detect motion. 
 
 ## Features
 
