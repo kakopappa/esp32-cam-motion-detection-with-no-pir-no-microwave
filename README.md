@@ -2,6 +2,20 @@
 
 The code divides camera frames into blocks and analyzes pixel changes to detect motion. 
 
+```cpp
+// More sensitive to large moving objects
+#define BLOCK_THRESHOLD 40    // Require stronger pixel changes
+#define MOTION_THRESHOLD 15   // Require more blocks to change
+
+// More sensitive to mid-moving objects
+#define BLOCK_THRESHOLD 30   // Accept subtler pixel changes
+#define MOTION_THRESHOLD 10  // Accept mid changed blocks
+
+// More sensitive to small moving objects
+#define BLOCK_THRESHOLD 20    // Accept subtler pixel changes
+#define MOTION_THRESHOLD 5    // Accept fewer changed blocks
+```
+
 ## Features
 
 - Real-time motion detection using block comparison algorithm
